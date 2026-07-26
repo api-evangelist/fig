@@ -1,21 +1,50 @@
 aid: fig
 name: Fig
-description: Fig is a company surfaced as a portfolio company of general-catalyst, techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Fig (Fig Loans) is a socially conscious, CDFI-certified fintech lender founded
+  in 2015 and based in Texas that offers small-dollar installment loans as a
+  responsible alternative to payday loans, along with credit-builder loans that
+  help underserved borrowers establish and improve their credit. Loans typically
+  range from a few hundred dollars over four-to-six-month terms, and Fig reports
+  repayment to the three major consumer credit bureaus so on-time payments build
+  credit history. Fig operates across a growing set of U.S. states including
+  Texas, Missouri, Ohio, Utah, Florida, Illinois, and California, and partners
+  with CDFIs and nonprofits on community-lending programs. Backed by General
+  Catalyst and Techstars, Fig is profiled in the API Evangelist network as a
+  company; it is a consumer-facing lender and does not publish a public developer
+  API.
 url: https://raw.githubusercontent.com/api-evangelist/fig/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
 - techstars
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: portfolio-lead-enriched
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.figloans.com/favicon.ico
 tags:
 - Company
+- Lending
+- Fintech
+- Personal Loans
+- Credit Builder
+- Consumer Finance
+- Financial Services
+- CDFI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,22 @@ maintainers:
 common:
 - type: Website
   url: https://figloans.com/
+- type: Blog
+  url: https://www.figloans.com/blog
+- type: Support
+  url: https://support.figloans.com
+- type: Pricing
+  url: https://www.figloans.com/rates
+- type: SignUp
+  url: https://www.figloans.com/app
+- type: TermsOfService
+  url: https://www.figloans.com/terms_of_service
+- type: PrivacyPolicy
+  url: https://www.figloans.com/privacy
+- type: DomainSecurity
+  url: security/fig-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
