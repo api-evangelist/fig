@@ -54,7 +54,7 @@ tags:
 - Personal Loans
 - Credit Builder
 - Consumer Finance
-- Financial-Services
+- Financial Services
 - CDFI
 tags_raw:
 - Company
@@ -65,6 +65,7 @@ tags_raw:
 - Consumer Finance
 - Financial Services
 - CDFI
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
